@@ -1,0 +1,6 @@
+R:LIKES ( C:MARY , C:JOHN )
+R:ORCUT ( C:JOHN , C:GEORGE , C:NICK )
+R:LIKES ( V:Y , V:X ) THEN R:NOTCUT ( V:X , V:Z )
+R:ORCUT ( V:X , V:Y , V:Z ) AND R:NOTCUT ( V:Y , V:Z ) THEN R:CUT ( V:X , V:Z )
+R:ORCUT ( V:X , V:Y , V:Z ) AND R:NOTCUT ( V:X , V:Z ) THEN R:CUT ( V:Y , V:Z )
+Prove: R:CUT ( C:GEORGE , C:NICK )

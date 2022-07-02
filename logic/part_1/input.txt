@@ -1,0 +1,2 @@
+Clause: ( NOT P2 ) AND ( P1 OR NOT P2 OR NOT P3 ) AND ( NOT P1 OR P2 ) AND ( P2 OR P3 )
+negProve: ( P1 OR NOT P3 )
